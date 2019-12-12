@@ -1,0 +1,828 @@
+[2019-11-13 16:01:10,619] INFO Reading configuration from: ../config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2019-11-13 16:01:10,621] INFO autopurge.snapRetainCount set to 3 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2019-11-13 16:01:10,622] INFO autopurge.purgeInterval set to 0 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2019-11-13 16:01:10,622] INFO Purge task is not scheduled. (org.apache.zookeeper.server.DatadirCleanupManager)
+[2019-11-13 16:01:10,622] WARN Either no config or no quorum defined in config, running  in standalone mode (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+[2019-11-13 16:01:10,634] INFO Reading configuration from: ../config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2019-11-13 16:01:10,635] INFO Starting server (org.apache.zookeeper.server.ZooKeeperServerMain)
+[2019-11-13 16:01:10,644] INFO Server environment:zookeeper.version=3.4.14-4c25d480e66aadd371de8bd2fd8da255ac140bcf, built on 03/06/2019 16:18 GMT (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-11-13 16:01:10,645] INFO Server environment:host.name=bflbdck114.dom101.mapres (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-11-13 16:01:10,645] INFO Server environment:java.version=1.8.0_222 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-11-13 16:01:10,645] INFO Server environment:java.vendor=Oracle Corporation (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-11-13 16:01:10,645] INFO Server environment:java.home=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.222.b10-1.el7_7.x86_64/jre (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-11-13 16:01:10,645] INFO Server environment:java.class.path=/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/activation-1.1.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/aopalliance-repackaged-2.5.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/argparse4j-0.7.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/audience-annotations-0.5.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/commons-lang3-3.8.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/connect-api-2.3.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/connect-basic-auth-extension-2.3.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/connect-file-2.3.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/connect-json-2.3.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/connect-runtime-2.3.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/connect-transforms-2.3.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/guava-20.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/hk2-api-2.5.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/hk2-locator-2.5.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/hk2-utils-2.5.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jackson-annotations-2.10.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jackson-core-2.10.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jackson-databind-2.10.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jackson-dataformat-csv-2.10.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jackson-datatype-jdk8-2.10.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jackson-jaxrs-base-2.10.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jackson-jaxrs-json-provider-2.10.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jackson-module-jaxb-annotations-2.10.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jackson-module-paranamer-2.10.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jackson-module-scala_2.12-2.10.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jakarta.activation-api-1.2.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jakarta.annotation-api-1.3.4.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jakarta.inject-2.5.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jakarta.ws.rs-api-2.1.5.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jakarta.xml.bind-api-2.3.2.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/javassist-3.22.0-CR2.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/javax.servlet-api-3.1.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/javax.ws.rs-api-2.1.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jaxb-api-2.3.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jersey-client-2.28.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jersey-common-2.28.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jersey-container-servlet-2.28.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jersey-container-servlet-core-2.28.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jersey-hk2-2.28.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jersey-media-jaxb-2.28.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jersey-server-2.28.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jetty-client-9.4.18.v20190429.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jetty-continuation-9.4.18.v20190429.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jetty-http-9.4.18.v20190429.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jetty-io-9.4.18.v20190429.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jetty-security-9.4.18.v20190429.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jetty-server-9.4.18.v20190429.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jetty-servlet-9.4.18.v20190429.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jetty-servlets-9.4.18.v20190429.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jetty-util-9.4.18.v20190429.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jopt-simple-5.0.4.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jsr305-3.0.2.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/kafka_2.12-2.3.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/kafka_2.12-2.3.1-sources.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/kafka-clients-2.3.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/kafka-log4j-appender-2.3.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/kafka-streams-2.3.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/kafka-streams-examples-2.3.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/kafka-streams-scala_2.12-2.3.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/kafka-streams-test-utils-2.3.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/kafka-tools-2.3.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/log4j-1.2.17.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/lz4-java-1.6.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/maven-artifact-3.6.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/metrics-core-2.2.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/osgi-resource-locator-1.0.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/paranamer-2.8.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/plexus-utils-3.2.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/reflections-0.9.11.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/rocksdbjni-5.18.3.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/scala-library-2.12.10.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/scala-library-2.12.8.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/scala-logging_2.12-3.9.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/scala-reflect-2.12.8.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/slf4j-api-1.7.26.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/slf4j-log4j12-1.7.26.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/snappy-java-1.1.7.3.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/spotbugs-annotations-3.1.9.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/validation-api-2.0.1.Final.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/zkclient-0.11.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/zookeeper-3.4.14.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/zstd-jni-1.4.0-1.jar (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-11-13 16:01:10,645] INFO Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-11-13 16:01:10,645] INFO Server environment:java.io.tmpdir=/tmp (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-11-13 16:01:10,645] INFO Server environment:java.compiler=<NA> (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-11-13 16:01:10,645] INFO Server environment:os.name=Linux (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-11-13 16:01:10,645] INFO Server environment:os.arch=amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-11-13 16:01:10,645] INFO Server environment:os.version=3.10.0-1062.1.2.el7.x86_64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-11-13 16:01:10,645] INFO Server environment:user.name=admbflbdck114 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-11-13 16:01:10,646] INFO Server environment:user.home=/home/ADMBFLBDCK114 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-11-13 16:01:10,646] INFO Server environment:user.dir=/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-11-13 16:01:10,652] INFO tickTime set to 3000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-11-13 16:01:10,652] INFO minSessionTimeout set to -1 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-11-13 16:01:10,652] INFO maxSessionTimeout set to -1 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-11-13 16:01:10,659] INFO Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory (org.apache.zookeeper.server.ServerCnxnFactory)
+[2019-11-13 16:01:10,680] INFO Server successfully logged in. (org.apache.zookeeper.Login)
+[2019-11-13 16:01:10,683] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-11-13 16:01:18,585] INFO Registered kafka:type=kafka.Log4jController MBean (kafka.utils.Log4jControllerRegistration$)
+[2019-11-13 16:01:19,112] INFO Registered signal handlers for TERM, INT, HUP (org.apache.kafka.common.utils.LoggingSignalHandler)
+[2019-11-13 16:01:19,113] INFO starting (kafka.server.KafkaServer)
+[2019-11-13 16:01:19,113] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2019-11-13 16:01:19,132] INFO [ZooKeeperClient Kafka server] Initializing a new session to localhost:2181. (kafka.zookeeper.ZooKeeperClient)
+[2019-11-13 16:01:19,136] INFO Client environment:zookeeper.version=3.4.14-4c25d480e66aadd371de8bd2fd8da255ac140bcf, built on 03/06/2019 16:18 GMT (org.apache.zookeeper.ZooKeeper)
+[2019-11-13 16:01:19,136] INFO Client environment:host.name=bflbdck114.dom101.mapres (org.apache.zookeeper.ZooKeeper)
+[2019-11-13 16:01:19,136] INFO Client environment:java.version=1.8.0_222 (org.apache.zookeeper.ZooKeeper)
+[2019-11-13 16:01:19,136] INFO Client environment:java.vendor=Oracle Corporation (org.apache.zookeeper.ZooKeeper)
+[2019-11-13 16:01:19,137] INFO Client environment:java.home=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.222.b10-1.el7_7.x86_64/jre (org.apache.zookeeper.ZooKeeper)
+[2019-11-13 16:01:19,137] INFO Client environment:java.class.path=/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/activation-1.1.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/aopalliance-repackaged-2.5.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/argparse4j-0.7.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/audience-annotations-0.5.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/commons-lang3-3.8.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/connect-api-2.3.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/connect-basic-auth-extension-2.3.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/connect-file-2.3.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/connect-json-2.3.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/connect-runtime-2.3.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/connect-transforms-2.3.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/guava-20.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/hk2-api-2.5.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/hk2-locator-2.5.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/hk2-utils-2.5.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jackson-annotations-2.10.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jackson-core-2.10.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jackson-databind-2.10.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jackson-dataformat-csv-2.10.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jackson-datatype-jdk8-2.10.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jackson-jaxrs-base-2.10.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jackson-jaxrs-json-provider-2.10.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jackson-module-jaxb-annotations-2.10.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jackson-module-paranamer-2.10.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jackson-module-scala_2.12-2.10.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jakarta.activation-api-1.2.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jakarta.annotation-api-1.3.4.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jakarta.inject-2.5.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jakarta.ws.rs-api-2.1.5.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jakarta.xml.bind-api-2.3.2.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/javassist-3.22.0-CR2.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/javax.servlet-api-3.1.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/javax.ws.rs-api-2.1.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jaxb-api-2.3.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jersey-client-2.28.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jersey-common-2.28.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jersey-container-servlet-2.28.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jersey-container-servlet-core-2.28.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jersey-hk2-2.28.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jersey-media-jaxb-2.28.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jersey-server-2.28.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jetty-client-9.4.18.v20190429.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jetty-continuation-9.4.18.v20190429.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jetty-http-9.4.18.v20190429.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jetty-io-9.4.18.v20190429.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jetty-security-9.4.18.v20190429.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jetty-server-9.4.18.v20190429.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jetty-servlet-9.4.18.v20190429.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jetty-servlets-9.4.18.v20190429.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jetty-util-9.4.18.v20190429.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jopt-simple-5.0.4.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/jsr305-3.0.2.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/kafka_2.12-2.3.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/kafka_2.12-2.3.1-sources.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/kafka-clients-2.3.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/kafka-log4j-appender-2.3.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/kafka-streams-2.3.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/kafka-streams-examples-2.3.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/kafka-streams-scala_2.12-2.3.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/kafka-streams-test-utils-2.3.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/kafka-tools-2.3.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/log4j-1.2.17.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/lz4-java-1.6.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/maven-artifact-3.6.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/metrics-core-2.2.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/osgi-resource-locator-1.0.1.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/paranamer-2.8.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/plexus-utils-3.2.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/reflections-0.9.11.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/rocksdbjni-5.18.3.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/scala-library-2.12.10.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/scala-library-2.12.8.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/scala-logging_2.12-3.9.0.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/scala-reflect-2.12.8.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/slf4j-api-1.7.26.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/slf4j-log4j12-1.7.26.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/snappy-java-1.1.7.3.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/spotbugs-annotations-3.1.9.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/validation-api-2.0.1.Final.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/zkclient-0.11.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/zookeeper-3.4.14.jar:/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin/../libs/zstd-jni-1.4.0-1.jar (org.apache.zookeeper.ZooKeeper)
+[2019-11-13 16:01:19,137] INFO Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib (org.apache.zookeeper.ZooKeeper)
+[2019-11-13 16:01:19,137] INFO Client environment:java.io.tmpdir=/tmp (org.apache.zookeeper.ZooKeeper)
+[2019-11-13 16:01:19,137] INFO Client environment:java.compiler=<NA> (org.apache.zookeeper.ZooKeeper)
+[2019-11-13 16:01:19,137] INFO Client environment:os.name=Linux (org.apache.zookeeper.ZooKeeper)
+[2019-11-13 16:01:19,138] INFO Client environment:os.arch=amd64 (org.apache.zookeeper.ZooKeeper)
+[2019-11-13 16:01:19,138] INFO Client environment:os.version=3.10.0-1062.1.2.el7.x86_64 (org.apache.zookeeper.ZooKeeper)
+[2019-11-13 16:01:19,138] INFO Client environment:user.name=admbflbdck114 (org.apache.zookeeper.ZooKeeper)
+[2019-11-13 16:01:19,138] INFO Client environment:user.home=/home/ADMBFLBDCK114 (org.apache.zookeeper.ZooKeeper)
+[2019-11-13 16:01:19,138] INFO Client environment:user.dir=/home/ADMBFLBDCK114/kafka_2.12-2.3.1/bin (org.apache.zookeeper.ZooKeeper)
+[2019-11-13 16:01:19,139] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=kafka.zookeeper.ZooKeeperClient$ZooKeeperClientWatcher$@63355449 (org.apache.zookeeper.ZooKeeper)
+[2019-11-13 16:01:19,149] INFO [ZooKeeperClient Kafka server] Waiting until connected. (kafka.zookeeper.ZooKeeperClient)
+[2019-11-13 16:01:19,172] INFO Client successfully logged in. (org.apache.zookeeper.Login)
+[2019-11-13 16:01:19,173] INFO Client will use DIGEST-MD5 as SASL mechanism. (org.apache.zookeeper.client.ZooKeeperSaslClient)
+[2019-11-13 16:01:19,175] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will attempt to SASL-authenticate using Login Context section 'Client' (org.apache.zookeeper.ClientCnxn)
+[2019-11-13 16:01:19,179] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-11-13 16:01:19,182] INFO Accepted socket connection from /127.0.0.1:42220 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-11-13 16:01:19,190] INFO Client attempting to establish new session at /127.0.0.1:42220 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-11-13 16:01:19,191] INFO Creating new log file: log.2bd (org.apache.zookeeper.server.persistence.FileTxnLog)
+[2019-11-13 16:01:19,197] INFO Established session 0x1000643942f0000 with negotiated timeout 6000 for client /127.0.0.1:42220 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-11-13 16:01:19,198] INFO Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x1000643942f0000, negotiated timeout = 6000 (org.apache.zookeeper.ClientCnxn)
+[2019-11-13 16:01:19,205] INFO [ZooKeeperClient Kafka server] Connected. (kafka.zookeeper.ZooKeeperClient)
+[2019-11-13 16:01:19,208] INFO Successfully authenticated client: authenticationID=super;  authorizationID=super. (org.apache.zookeeper.server.auth.SaslServerCallbackHandler)
+[2019-11-13 16:01:19,213] INFO Setting authorizedID: super (org.apache.zookeeper.server.auth.SaslServerCallbackHandler)
+[2019-11-13 16:01:19,213] INFO adding SASL authorization for authorizationID: super (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-11-13 16:01:19,268] INFO Got user-level KeeperException when processing sessionid:0x1000643942f0000 type:create cxid:0x3 zxid:0x2be txntype:-1 reqpath:n/a Error Path:/consumers Error:KeeperErrorCode = NodeExists for /consumers (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-11-13 16:01:19,280] INFO Got user-level KeeperException when processing sessionid:0x1000643942f0000 type:create cxid:0x4 zxid:0x2bf txntype:-1 reqpath:n/a Error Path:/brokers/ids Error:KeeperErrorCode = NodeExists for /brokers/ids (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-11-13 16:01:19,282] INFO Got user-level KeeperException when processing sessionid:0x1000643942f0000 type:create cxid:0x5 zxid:0x2c0 txntype:-1 reqpath:n/a Error Path:/brokers/topics Error:KeeperErrorCode = NodeExists for /brokers/topics (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-11-13 16:01:19,284] INFO Got user-level KeeperException when processing sessionid:0x1000643942f0000 type:create cxid:0x6 zxid:0x2c1 txntype:-1 reqpath:n/a Error Path:/config/changes Error:KeeperErrorCode = NodeExists for /config/changes (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-11-13 16:01:19,286] INFO Got user-level KeeperException when processing sessionid:0x1000643942f0000 type:create cxid:0x7 zxid:0x2c2 txntype:-1 reqpath:n/a Error Path:/admin/delete_topics Error:KeeperErrorCode = NodeExists for /admin/delete_topics (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-11-13 16:01:19,288] INFO Got user-level KeeperException when processing sessionid:0x1000643942f0000 type:create cxid:0x8 zxid:0x2c3 txntype:-1 reqpath:n/a Error Path:/brokers/seqid Error:KeeperErrorCode = NodeExists for /brokers/seqid (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-11-13 16:01:19,292] INFO Got user-level KeeperException when processing sessionid:0x1000643942f0000 type:create cxid:0x9 zxid:0x2c4 txntype:-1 reqpath:n/a Error Path:/isr_change_notification Error:KeeperErrorCode = NodeExists for /isr_change_notification (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-11-13 16:01:19,295] INFO Got user-level KeeperException when processing sessionid:0x1000643942f0000 type:create cxid:0xa zxid:0x2c5 txntype:-1 reqpath:n/a Error Path:/latest_producer_id_block Error:KeeperErrorCode = NodeExists for /latest_producer_id_block (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-11-13 16:01:19,296] INFO Got user-level KeeperException when processing sessionid:0x1000643942f0000 type:create cxid:0xb zxid:0x2c6 txntype:-1 reqpath:n/a Error Path:/log_dir_event_notification Error:KeeperErrorCode = NodeExists for /log_dir_event_notification (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-11-13 16:01:19,300] INFO Got user-level KeeperException when processing sessionid:0x1000643942f0000 type:create cxid:0xc zxid:0x2c7 txntype:-1 reqpath:n/a Error Path:/config/topics Error:KeeperErrorCode = NodeExists for /config/topics (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-11-13 16:01:19,302] INFO Got user-level KeeperException when processing sessionid:0x1000643942f0000 type:create cxid:0xd zxid:0x2c8 txntype:-1 reqpath:n/a Error Path:/config/clients Error:KeeperErrorCode = NodeExists for /config/clients (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-11-13 16:01:19,304] INFO Got user-level KeeperException when processing sessionid:0x1000643942f0000 type:create cxid:0xe zxid:0x2c9 txntype:-1 reqpath:n/a Error Path:/config/users Error:KeeperErrorCode = NodeExists for /config/users (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-11-13 16:01:19,307] INFO Got user-level KeeperException when processing sessionid:0x1000643942f0000 type:create cxid:0xf zxid:0x2ca txntype:-1 reqpath:n/a Error Path:/config/brokers Error:KeeperErrorCode = NodeExists for /config/brokers (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-11-13 16:01:19,466] INFO Cluster ID = oAZNty3ZSdKBr6eQGK6iPw (kafka.server.KafkaServer)
+[2019-11-13 16:01:19,528] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = kafka.security.auth.SimpleAclAuthorizer
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 1800000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.3-IV1
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = SSL://:9093,SASL_SSL://:9094
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.max.compaction.lag.ms = 9223372036854775807
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.3-IV1
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections = 2147483647
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [SCRAM-SHA-512]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.inter.broker.protocol = SCRAM-SHA-512
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = SASL_SSL
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = required
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = 
+	ssl.key.password = [hidden]
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = /home/ADMBFLBDCK114/kafka_2.12-2.3.1/ssl/kafka.server.keystore.jks
+	ssl.keystore.password = [hidden]
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = [DEFAULT]
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = /home/ADMBFLBDCK114/kafka_2.12-2.3.1/ssl/kafka.server.keystore.jks
+	ssl.truststore.password = [hidden]
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2019-11-13 16:01:19,541] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = kafka.security.auth.SimpleAclAuthorizer
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 1800000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.3-IV1
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = SSL://:9093,SASL_SSL://:9094
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.max.compaction.lag.ms = 9223372036854775807
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.3-IV1
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections = 2147483647
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [SCRAM-SHA-512]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.inter.broker.protocol = SCRAM-SHA-512
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = SASL_SSL
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = required
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = 
+	ssl.key.password = [hidden]
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = /home/ADMBFLBDCK114/kafka_2.12-2.3.1/ssl/kafka.server.keystore.jks
+	ssl.keystore.password = [hidden]
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = [DEFAULT]
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = /home/ADMBFLBDCK114/kafka_2.12-2.3.1/ssl/kafka.server.keystore.jks
+	ssl.truststore.password = [hidden]
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2019-11-13 16:01:19,567] INFO [ThrottledChannelReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-11-13 16:01:19,568] INFO [ThrottledChannelReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-11-13 16:01:19,574] INFO [ThrottledChannelReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-11-13 16:01:19,609] INFO Loading logs. (kafka.log.LogManager)
+[2019-11-13 16:01:19,671] INFO [Log partition=YYE_SUPPRESSION_TOPIC-0, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,681] INFO [Log partition=YYE_SUPPRESSION_TOPIC-0, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 47 ms (kafka.log.Log)
+[2019-11-13 16:01:19,690] INFO [Log partition=__consumer_offsets-0, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,690] INFO [Log partition=__consumer_offsets-0, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2019-11-13 16:01:19,694] INFO [Log partition=__consumer_offsets-29, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,694] INFO [Log partition=__consumer_offsets-29, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-11-13 16:01:19,711] INFO [Log partition=__consumer_offsets-48, dir=/tmp/kafka-logs] Loading producer state till offset 522837 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,715] INFO [ProducerStateManager partition=__consumer_offsets-48] Loading producer state from snapshot file '/tmp/kafka-logs/__consumer_offsets-48/00000000000000522837.snapshot' (kafka.log.ProducerStateManager)
+[2019-11-13 16:01:19,726] INFO [Log partition=__consumer_offsets-48, dir=/tmp/kafka-logs] Completed load of log with 2 segments, log start offset 0 and log end offset 522837 in 30 ms (kafka.log.Log)
+[2019-11-13 16:01:19,730] INFO [Log partition=__consumer_offsets-10, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,730] INFO [Log partition=__consumer_offsets-10, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-11-13 16:01:19,734] INFO [Log partition=__consumer_offsets-45, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,735] INFO [Log partition=__consumer_offsets-45, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2019-11-13 16:01:19,739] INFO [Log partition=__consumer_offsets-26, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,739] INFO [Log partition=__consumer_offsets-26, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2019-11-13 16:01:19,742] INFO [Log partition=__consumer_offsets-7, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,742] INFO [Log partition=__consumer_offsets-7, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-11-13 16:01:19,748] INFO [Log partition=__consumer_offsets-42, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,748] INFO [Log partition=__consumer_offsets-42, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-11-13 16:01:19,751] INFO [Log partition=__consumer_offsets-4, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,752] INFO [Log partition=__consumer_offsets-4, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2019-11-13 16:01:19,755] INFO [Log partition=__consumer_offsets-23, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,755] INFO [Log partition=__consumer_offsets-23, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-11-13 16:01:19,759] INFO [Log partition=__consumer_offsets-1, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,760] INFO [Log partition=__consumer_offsets-1, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2019-11-13 16:01:19,763] INFO [Log partition=__consumer_offsets-20, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,763] INFO [Log partition=__consumer_offsets-20, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-11-13 16:01:19,766] INFO [Log partition=__consumer_offsets-39, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,767] INFO [Log partition=__consumer_offsets-39, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2019-11-13 16:01:19,769] INFO [Log partition=__consumer_offsets-17, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,770] INFO [Log partition=__consumer_offsets-17, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2019-11-13 16:01:19,775] INFO [Log partition=__consumer_offsets-36, dir=/tmp/kafka-logs] Loading producer state till offset 701179 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,776] INFO [ProducerStateManager partition=__consumer_offsets-36] Loading producer state from snapshot file '/tmp/kafka-logs/__consumer_offsets-36/00000000000000701179.snapshot' (kafka.log.ProducerStateManager)
+[2019-11-13 16:01:19,776] INFO [Log partition=__consumer_offsets-36, dir=/tmp/kafka-logs] Completed load of log with 2 segments, log start offset 0 and log end offset 701179 in 5 ms (kafka.log.Log)
+[2019-11-13 16:01:19,779] INFO [Log partition=__consumer_offsets-14, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,779] INFO [Log partition=__consumer_offsets-14, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2019-11-13 16:01:19,781] INFO [Log partition=__consumer_offsets-33, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,782] INFO [Log partition=__consumer_offsets-33, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2019-11-13 16:01:19,784] INFO [Log partition=__consumer_offsets-49, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,784] INFO [Log partition=__consumer_offsets-49, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-11-13 16:01:19,787] INFO [Log partition=__consumer_offsets-11, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,787] INFO [Log partition=__consumer_offsets-11, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-11-13 16:01:19,790] INFO [Log partition=__consumer_offsets-30, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,790] INFO [Log partition=__consumer_offsets-30, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-11-13 16:01:19,792] INFO [Log partition=__consumer_offsets-46, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,793] INFO [Log partition=__consumer_offsets-46, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2019-11-13 16:01:19,795] INFO [Log partition=__consumer_offsets-27, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,795] INFO [Log partition=__consumer_offsets-27, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-11-13 16:01:19,798] INFO [Log partition=__consumer_offsets-8, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,798] INFO [Log partition=__consumer_offsets-8, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-11-13 16:01:19,801] INFO [Log partition=__consumer_offsets-24, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,801] INFO [Log partition=__consumer_offsets-24, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-11-13 16:01:19,803] INFO [Log partition=__consumer_offsets-43, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,804] INFO [Log partition=__consumer_offsets-43, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2019-11-13 16:01:19,806] INFO [Log partition=__consumer_offsets-5, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,806] INFO [Log partition=__consumer_offsets-5, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-11-13 16:01:19,809] INFO [Log partition=__consumer_offsets-21, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,809] INFO [Log partition=__consumer_offsets-21, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-11-13 16:01:19,812] INFO [Log partition=__consumer_offsets-2, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,812] INFO [Log partition=__consumer_offsets-2, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2019-11-13 16:01:19,814] INFO [Log partition=__consumer_offsets-40, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,814] INFO [Log partition=__consumer_offsets-40, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-11-13 16:01:19,816] INFO [Log partition=__consumer_offsets-37, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,817] INFO [Log partition=__consumer_offsets-37, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2019-11-13 16:01:19,819] INFO [Log partition=__consumer_offsets-18, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,819] INFO [Log partition=__consumer_offsets-18, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-11-13 16:01:19,822] INFO [Log partition=__consumer_offsets-34, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,822] INFO [Log partition=__consumer_offsets-34, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-11-13 16:01:19,824] INFO [Log partition=__consumer_offsets-15, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,825] INFO [Log partition=__consumer_offsets-15, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2019-11-13 16:01:19,827] INFO [Log partition=__consumer_offsets-12, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,827] INFO [Log partition=__consumer_offsets-12, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-11-13 16:01:19,829] INFO [Log partition=__consumer_offsets-31, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,830] INFO [Log partition=__consumer_offsets-31, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2019-11-13 16:01:19,832] INFO [Log partition=__consumer_offsets-9, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,832] INFO [Log partition=__consumer_offsets-9, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-11-13 16:01:19,835] INFO [Log partition=__consumer_offsets-47, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,835] INFO [Log partition=__consumer_offsets-47, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-11-13 16:01:19,837] INFO [Log partition=__consumer_offsets-19, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,837] INFO [Log partition=__consumer_offsets-19, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-11-13 16:01:19,840] INFO [Log partition=__consumer_offsets-28, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,840] INFO [Log partition=__consumer_offsets-28, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-11-13 16:01:19,847] INFO [Log partition=__consumer_offsets-38, dir=/tmp/kafka-logs] Loading producer state till offset 419080 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,847] INFO [ProducerStateManager partition=__consumer_offsets-38] Loading producer state from snapshot file '/tmp/kafka-logs/__consumer_offsets-38/00000000000000419080.snapshot' (kafka.log.ProducerStateManager)
+[2019-11-13 16:01:19,848] INFO [Log partition=__consumer_offsets-38, dir=/tmp/kafka-logs] Completed load of log with 2 segments, log start offset 0 and log end offset 419080 in 7 ms (kafka.log.Log)
+[2019-11-13 16:01:19,850] INFO [Log partition=__consumer_offsets-35, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,850] INFO [Log partition=__consumer_offsets-35, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-11-13 16:01:19,855] INFO [Log partition=__consumer_offsets-44, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,855] INFO [Log partition=__consumer_offsets-44, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2019-11-13 16:01:19,858] INFO [Log partition=__consumer_offsets-6, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,858] INFO [Log partition=__consumer_offsets-6, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-11-13 16:01:19,860] INFO [Log partition=__consumer_offsets-25, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,860] INFO [Log partition=__consumer_offsets-25, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-11-13 16:01:19,862] INFO [Log partition=__consumer_offsets-16, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,863] INFO [Log partition=__consumer_offsets-16, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2019-11-13 16:01:19,865] INFO [Log partition=__consumer_offsets-22, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,865] INFO [Log partition=__consumer_offsets-22, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-11-13 16:01:19,868] INFO [Log partition=__consumer_offsets-41, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,868] INFO [Log partition=__consumer_offsets-41, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-11-13 16:01:19,870] INFO [Log partition=__consumer_offsets-32, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,870] INFO [Log partition=__consumer_offsets-32, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-11-13 16:01:19,872] INFO [Log partition=__consumer_offsets-3, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,873] INFO [Log partition=__consumer_offsets-3, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2019-11-13 16:01:19,875] INFO [Log partition=__consumer_offsets-13, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,875] INFO [Log partition=__consumer_offsets-13, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-11-13 16:01:19,877] INFO [Log partition=YYE_SUIVI_FICHIERS_TOPIC-0, dir=/tmp/kafka-logs] Loading producer state till offset 6 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,878] INFO [Log partition=YYE_SUIVI_FICHIERS_TOPIC-0, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 6 and log end offset 6 in 2 ms (kafka.log.Log)
+[2019-11-13 16:01:19,880] INFO [Log partition=YDH_REJETS_TECHNIQUE_TOPIC-0, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,880] INFO [Log partition=YDH_REJETS_TECHNIQUE_TOPIC-0, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-11-13 16:01:19,882] INFO [Log partition=YDH_REJETS_TOPIC-0, dir=/tmp/kafka-logs] Loading producer state till offset 10 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,882] INFO [Log partition=YDH_REJETS_TOPIC-0, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 10 and log end offset 10 in 1 ms (kafka.log.Log)
+[2019-11-13 16:01:19,884] INFO [Log partition=YYD_DEMANDES_ENCOURS_TOPIC-0, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,885] INFO [Log partition=YYD_DEMANDES_ENCOURS_TOPIC-0, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2019-11-13 16:01:19,887] INFO [Log partition=YYC_ENCOURS_TOPIC-0, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,887] INFO [Log partition=YYC_ENCOURS_TOPIC-0, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-11-13 16:01:19,889] INFO [Log partition=YYE_SUIVI_FICHIERS_INDIC_ENCOURS_TOPIC-0, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,889] INFO [Log partition=YYE_SUIVI_FICHIERS_INDIC_ENCOURS_TOPIC-0, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-11-13 16:01:19,891] INFO [Log partition=test-0, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-13 16:01:19,892] INFO [Log partition=test-0, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2019-11-13 16:01:19,894] INFO Logs loading complete in 285 ms. (kafka.log.LogManager)
+[2019-11-13 16:01:19,909] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+[2019-11-13 16:01:19,910] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+[2019-11-13 16:01:20,209] INFO Awaiting socket connections on 0.0.0.0:9093. (kafka.network.Acceptor)
+[2019-11-13 16:01:20,968] INFO [SocketServer brokerId=0] Created data-plane acceptor and processors for endpoint : EndPoint(null,9093,ListenerName(SSL),SSL) (kafka.network.SocketServer)
+[2019-11-13 16:01:20,968] INFO Awaiting socket connections on 0.0.0.0:9094. (kafka.network.Acceptor)
+[2019-11-13 16:01:20,973] INFO Successfully logged in. (org.apache.kafka.common.security.authenticator.AbstractLogin)
+[2019-11-13 16:01:21,821] INFO [SocketServer brokerId=0] Created data-plane acceptor and processors for endpoint : EndPoint(null,9094,ListenerName(SASL_SSL),SASL_SSL) (kafka.network.SocketServer)
+[2019-11-13 16:01:21,823] INFO [SocketServer brokerId=0] Started 2 acceptor threads for data-plane (kafka.network.SocketServer)
+[2019-11-13 16:01:21,847] INFO [ExpirationReaper-0-Produce]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-13 16:01:21,848] INFO [ExpirationReaper-0-Fetch]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-13 16:01:21,849] INFO [ExpirationReaper-0-DeleteRecords]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-13 16:01:21,859] INFO [ExpirationReaper-0-ElectPreferredLeader]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-13 16:01:21,863] INFO [LogDirFailureHandler]: Starting (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2019-11-13 16:01:21,905] INFO Creating /brokers/ids/0 (is it secure? false) (kafka.zk.KafkaZkClient)
+[2019-11-13 16:01:21,928] INFO Stat of the created znode at /brokers/ids/0 is: 715,715,1573657281922,1573657281922,1,0,0,72064481356611584,241,0,715
+ (kafka.zk.KafkaZkClient)
+[2019-11-13 16:01:21,928] INFO Registered broker 0 at path /brokers/ids/0 with addresses: ArrayBuffer(EndPoint(bflbdck114.dom101.mapres,9093,ListenerName(SSL),SSL), EndPoint(bflbdck114.dom101.mapres,9094,ListenerName(SASL_SSL),SASL_SSL)), czxid (broker epoch): 715 (kafka.zk.KafkaZkClient)
+[2019-11-13 16:01:21,974] INFO [ExpirationReaper-0-topic]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-13 16:01:21,974] INFO [ExpirationReaper-0-Heartbeat]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-13 16:01:21,983] INFO [ExpirationReaper-0-Rebalance]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-13 16:01:22,004] INFO [GroupCoordinator 0]: Starting up. (kafka.coordinator.group.GroupCoordinator)
+[2019-11-13 16:01:22,005] INFO [GroupCoordinator 0]: Startup complete. (kafka.coordinator.group.GroupCoordinator)
+[2019-11-13 16:01:22,011] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 3 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-13 16:01:22,043] INFO [ProducerId Manager 0]: Acquired new producerId block (brokerId:0,blockStartProducerId:17000,blockEndProducerId:17999) by writing to Zk with path version 18 (kafka.coordinator.transaction.ProducerIdManager)
+[2019-11-13 16:01:22,424] INFO [TransactionCoordinator id=0] Starting up. (kafka.coordinator.transaction.TransactionCoordinator)
+[2019-11-13 16:01:22,457] INFO [TransactionCoordinator id=0] Startup complete. (kafka.coordinator.transaction.TransactionCoordinator)
+[2019-11-13 16:01:22,466] INFO [Transaction Marker Channel Manager 0]: Starting (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2019-11-13 16:01:22,523] INFO [ZooKeeperClient Simple ACL authorizer] Initializing a new session to localhost:2181. (kafka.zookeeper.ZooKeeperClient)
+[2019-11-13 16:01:22,523] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=kafka.zookeeper.ZooKeeperClient$ZooKeeperClientWatcher$@1b065145 (org.apache.zookeeper.ZooKeeper)
+[2019-11-13 16:01:22,535] INFO Got user-level KeeperException when processing sessionid:0x1000643942f0000 type:multi cxid:0x76 zxid:0x2ce txntype:-1 reqpath:n/a aborting remaining multi ops. Error Path:/admin/preferred_replica_election Error:KeeperErrorCode = NoNode for /admin/preferred_replica_election (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-11-13 16:01:22,539] INFO [ZooKeeperClient Simple ACL authorizer] Waiting until connected. (kafka.zookeeper.ZooKeeperClient)
+[2019-11-13 16:01:22,540] INFO Client will use DIGEST-MD5 as SASL mechanism. (org.apache.zookeeper.client.ZooKeeperSaslClient)
+[2019-11-13 16:01:22,541] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will attempt to SASL-authenticate using Login Context section 'Client' (org.apache.zookeeper.ClientCnxn)
+[2019-11-13 16:01:22,541] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-11-13 16:01:22,541] INFO Accepted socket connection from /127.0.0.1:42224 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-11-13 16:01:22,542] INFO Client attempting to establish new session at /127.0.0.1:42224 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-11-13 16:01:22,547] INFO Established session 0x1000643942f0001 with negotiated timeout 6000 for client /127.0.0.1:42224 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-11-13 16:01:22,547] INFO Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x1000643942f0001, negotiated timeout = 6000 (org.apache.zookeeper.ClientCnxn)
+[2019-11-13 16:01:22,547] INFO [ZooKeeperClient Simple ACL authorizer] Connected. (kafka.zookeeper.ZooKeeperClient)
+[2019-11-13 16:01:22,549] INFO Successfully authenticated client: authenticationID=super;  authorizationID=super. (org.apache.zookeeper.server.auth.SaslServerCallbackHandler)
+[2019-11-13 16:01:22,549] INFO Setting authorizedID: super (org.apache.zookeeper.server.auth.SaslServerCallbackHandler)
+[2019-11-13 16:01:22,550] INFO adding SASL authorization for authorizationID: super (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-11-13 16:01:22,553] INFO Got user-level KeeperException when processing sessionid:0x1000643942f0001 type:create cxid:0x3 zxid:0x2d0 txntype:-1 reqpath:n/a Error Path:/kafka-acl Error:KeeperErrorCode = NodeExists for /kafka-acl (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-11-13 16:01:22,561] INFO Got user-level KeeperException when processing sessionid:0x1000643942f0001 type:create cxid:0x4 zxid:0x2d1 txntype:-1 reqpath:n/a Error Path:/kafka-acl/Topic Error:KeeperErrorCode = NodeExists for /kafka-acl/Topic (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-11-13 16:01:22,577] INFO Got user-level KeeperException when processing sessionid:0x1000643942f0001 type:create cxid:0x5 zxid:0x2d2 txntype:-1 reqpath:n/a Error Path:/kafka-acl/Group Error:KeeperErrorCode = NodeExists for /kafka-acl/Group (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-11-13 16:01:22,579] INFO Got user-level KeeperException when processing sessionid:0x1000643942f0001 type:create cxid:0x6 zxid:0x2d3 txntype:-1 reqpath:n/a Error Path:/kafka-acl/Cluster Error:KeeperErrorCode = NodeExists for /kafka-acl/Cluster (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-11-13 16:01:22,582] INFO Got user-level KeeperException when processing sessionid:0x1000643942f0001 type:create cxid:0x7 zxid:0x2d4 txntype:-1 reqpath:n/a Error Path:/kafka-acl/TransactionalId Error:KeeperErrorCode = NodeExists for /kafka-acl/TransactionalId (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-11-13 16:01:22,584] INFO Got user-level KeeperException when processing sessionid:0x1000643942f0001 type:create cxid:0x8 zxid:0x2d5 txntype:-1 reqpath:n/a Error Path:/kafka-acl/DelegationToken Error:KeeperErrorCode = NodeExists for /kafka-acl/DelegationToken (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-11-13 16:01:22,585] INFO Got user-level KeeperException when processing sessionid:0x1000643942f0001 type:create cxid:0x9 zxid:0x2d6 txntype:-1 reqpath:n/a Error Path:/kafka-acl-extended/prefixed Error:KeeperErrorCode = NodeExists for /kafka-acl-extended/prefixed (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-11-13 16:01:22,588] INFO Got user-level KeeperException when processing sessionid:0x1000643942f0001 type:create cxid:0xa zxid:0x2d7 txntype:-1 reqpath:n/a Error Path:/kafka-acl-extended/prefixed/Topic Error:KeeperErrorCode = NodeExists for /kafka-acl-extended/prefixed/Topic (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-11-13 16:01:22,610] INFO Got user-level KeeperException when processing sessionid:0x1000643942f0001 type:create cxid:0xb zxid:0x2d8 txntype:-1 reqpath:n/a Error Path:/kafka-acl-extended/prefixed/Group Error:KeeperErrorCode = NodeExists for /kafka-acl-extended/prefixed/Group (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-11-13 16:01:22,612] INFO Got user-level KeeperException when processing sessionid:0x1000643942f0001 type:create cxid:0xc zxid:0x2d9 txntype:-1 reqpath:n/a Error Path:/kafka-acl-extended/prefixed/Cluster Error:KeeperErrorCode = NodeExists for /kafka-acl-extended/prefixed/Cluster (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-11-13 16:01:22,613] INFO Got user-level KeeperException when processing sessionid:0x1000643942f0001 type:create cxid:0xd zxid:0x2da txntype:-1 reqpath:n/a Error Path:/kafka-acl-extended/prefixed/TransactionalId Error:KeeperErrorCode = NodeExists for /kafka-acl-extended/prefixed/TransactionalId (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-11-13 16:01:22,617] INFO Got user-level KeeperException when processing sessionid:0x1000643942f0001 type:create cxid:0xe zxid:0x2db txntype:-1 reqpath:n/a Error Path:/kafka-acl-extended/prefixed/DelegationToken Error:KeeperErrorCode = NodeExists for /kafka-acl-extended/prefixed/DelegationToken (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-11-13 16:01:22,620] INFO Got user-level KeeperException when processing sessionid:0x1000643942f0001 type:create cxid:0xf zxid:0x2dc txntype:-1 reqpath:n/a Error Path:/kafka-acl-changes Error:KeeperErrorCode = NodeExists for /kafka-acl-changes (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-11-13 16:01:22,623] INFO Got user-level KeeperException when processing sessionid:0x1000643942f0001 type:create cxid:0x10 zxid:0x2dd txntype:-1 reqpath:n/a Error Path:/kafka-acl-extended-changes Error:KeeperErrorCode = NodeExists for /kafka-acl-extended-changes (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-11-13 16:01:22,630] INFO [/kafka-acl-changes-event-process-thread]: Starting (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2019-11-13 16:01:22,631] INFO [/kafka-acl-extended-changes-event-process-thread]: Starting (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2019-11-13 16:01:22,677] INFO [/config/changes-event-process-thread]: Starting (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2019-11-13 16:01:22,721] INFO [SocketServer brokerId=0] Started data-plane processors for 2 acceptors (kafka.network.SocketServer)
+[2019-11-13 16:01:22,723] INFO Kafka version: 2.3.1 (org.apache.kafka.common.utils.AppInfoParser)
+[2019-11-13 16:01:22,723] INFO Kafka commitId: 18a913733fb71c01 (org.apache.kafka.common.utils.AppInfoParser)
+[2019-11-13 16:01:22,723] INFO Kafka startTimeMs: 1573657282722 (org.apache.kafka.common.utils.AppInfoParser)
+[2019-11-13 16:01:22,724] INFO [KafkaServer id=0] started (kafka.server.KafkaServer)
+[2019-11-13 16:01:22,742] INFO [SocketServer brokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:22,742] INFO [Controller id=0, targetBrokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:22,743] ERROR [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) failed authentication due to: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512 (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:22,873] INFO [SocketServer brokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:22,874] INFO [Controller id=0, targetBrokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:22,874] ERROR [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) failed authentication due to: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512 (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:22,993] INFO [SocketServer brokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:22,994] INFO [Controller id=0, targetBrokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:22,994] ERROR [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) failed authentication due to: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512 (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:23,113] INFO [SocketServer brokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:23,113] INFO [Controller id=0, targetBrokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:23,114] ERROR [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) failed authentication due to: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512 (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:23,230] INFO [SocketServer brokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:23,231] INFO [Controller id=0, targetBrokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:23,231] ERROR [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) failed authentication due to: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512 (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:23,348] INFO [Controller id=0, targetBrokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:23,348] ERROR [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) failed authentication due to: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512 (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:23,348] INFO [SocketServer brokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:23,466] INFO [SocketServer brokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:23,467] INFO [Controller id=0, targetBrokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:23,467] ERROR [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) failed authentication due to: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512 (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:23,581] INFO [SocketServer brokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:23,582] INFO [Controller id=0, targetBrokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:23,582] ERROR [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) failed authentication due to: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512 (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:23,697] INFO [SocketServer brokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:23,698] INFO [Controller id=0, targetBrokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:23,698] ERROR [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) failed authentication due to: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512 (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:23,812] INFO [SocketServer brokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:23,812] INFO [Controller id=0, targetBrokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:23,812] ERROR [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) failed authentication due to: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512 (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:23,928] INFO [SocketServer brokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:23,928] INFO [Controller id=0, targetBrokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:23,928] ERROR [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) failed authentication due to: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512 (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:24,040] INFO [SocketServer brokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:24,040] INFO [Controller id=0, targetBrokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:24,040] ERROR [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) failed authentication due to: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512 (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:24,155] INFO [SocketServer brokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:24,155] INFO [Controller id=0, targetBrokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:24,155] ERROR [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) failed authentication due to: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512 (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:24,267] INFO [SocketServer brokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:24,267] INFO [Controller id=0, targetBrokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:24,267] ERROR [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) failed authentication due to: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512 (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:24,379] INFO [SocketServer brokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:24,379] INFO [Controller id=0, targetBrokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:24,379] ERROR [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) failed authentication due to: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512 (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:24,499] INFO [SocketServer brokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:24,499] INFO [Controller id=0, targetBrokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:24,499] ERROR [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) failed authentication due to: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512 (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:24,613] INFO [SocketServer brokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:24,614] INFO [Controller id=0, targetBrokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:24,614] ERROR [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) failed authentication due to: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512 (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:24,728] INFO [SocketServer brokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:24,728] INFO [Controller id=0, targetBrokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:24,728] ERROR [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) failed authentication due to: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512 (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:24,841] INFO [SocketServer brokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:24,841] INFO [Controller id=0, targetBrokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:24,841] ERROR [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) failed authentication due to: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512 (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:24,967] INFO [SocketServer brokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:24,968] INFO [Controller id=0, targetBrokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:24,968] ERROR [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) failed authentication due to: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512 (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:25,080] INFO [SocketServer brokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:25,081] INFO [Controller id=0, targetBrokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:25,081] ERROR [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) failed authentication due to: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512 (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:25,192] INFO [SocketServer brokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:25,192] INFO [Controller id=0, targetBrokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:25,192] ERROR [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) failed authentication due to: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512 (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:25,306] INFO [SocketServer brokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:25,306] INFO [Controller id=0, targetBrokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:25,306] ERROR [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) failed authentication due to: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512 (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:25,419] INFO [SocketServer brokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:25,419] INFO [Controller id=0, targetBrokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:25,419] ERROR [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) failed authentication due to: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512 (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:25,536] INFO [SocketServer brokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:25,538] INFO [Controller id=0, targetBrokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:25,538] ERROR [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) failed authentication due to: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512 (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:25,651] INFO [SocketServer brokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:25,651] INFO [Controller id=0, targetBrokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:25,651] ERROR [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) failed authentication due to: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512 (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:25,708] INFO Terminating process due to signal SIGINT (org.apache.kafka.common.utils.LoggingSignalHandler)
+[2019-11-13 16:01:25,710] INFO [KafkaServer id=0] shutting down (kafka.server.KafkaServer)
+[2019-11-13 16:01:25,710] INFO [KafkaServer id=0] Starting controlled shutdown (kafka.server.KafkaServer)
+[2019-11-13 16:01:25,762] INFO [SocketServer brokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:25,762] INFO [Controller id=0, targetBrokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:25,762] ERROR [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) failed authentication due to: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512 (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:25,875] INFO [SocketServer brokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:25,875] INFO [Controller id=0, targetBrokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:25,875] ERROR [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) failed authentication due to: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512 (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:25,957] INFO [SocketServer brokerId=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:25,957] INFO [KafkaServer id=0] Failed authentication with bflbdck114.dom101.mapres/100.121.227.162 (Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512) (org.apache.kafka.common.network.Selector)
+[2019-11-13 16:01:25,957] ERROR [KafkaServer id=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) failed authentication due to: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512 (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:25,961] WARN Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512 (kafka.utils.CoreUtils$)
+org.apache.kafka.common.errors.SaslAuthenticationException: Authentication failed during authentication due to invalid credentials with SASL mechanism SCRAM-SHA-512
+[2019-11-13 16:01:25,963] INFO [/config/changes-event-process-thread]: Shutting down (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2019-11-13 16:01:25,963] INFO [/config/changes-event-process-thread]: Stopped (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2019-11-13 16:01:25,964] INFO [/config/changes-event-process-thread]: Shutdown completed (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2019-11-13 16:01:25,964] INFO [SocketServer brokerId=0] Stopping socket server request processors (kafka.network.SocketServer)
+[2019-11-13 16:01:25,976] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:25,977] INFO [SocketServer brokerId=0] Stopped socket server request processors (kafka.network.SocketServer)
+[2019-11-13 16:01:25,978] INFO [data-plane Kafka Request Handler on Broker 0], shutting down (kafka.server.KafkaRequestHandlerPool)
+[2019-11-13 16:01:25,983] INFO [data-plane Kafka Request Handler on Broker 0], shut down completely (kafka.server.KafkaRequestHandlerPool)
+[2019-11-13 16:01:25,985] INFO [KafkaApi-0] Shutdown complete. (kafka.server.KafkaApis)
+[2019-11-13 16:01:25,986] INFO [/kafka-acl-changes-event-process-thread]: Shutting down (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2019-11-13 16:01:25,986] INFO [/kafka-acl-changes-event-process-thread]: Stopped (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2019-11-13 16:01:25,986] INFO [/kafka-acl-changes-event-process-thread]: Shutdown completed (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2019-11-13 16:01:25,986] INFO [/kafka-acl-extended-changes-event-process-thread]: Shutting down (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2019-11-13 16:01:25,986] INFO [/kafka-acl-extended-changes-event-process-thread]: Stopped (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2019-11-13 16:01:25,986] INFO [/kafka-acl-extended-changes-event-process-thread]: Shutdown completed (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2019-11-13 16:01:25,986] INFO [ZooKeeperClient Simple ACL authorizer] Closing. (kafka.zookeeper.ZooKeeperClient)
+[2019-11-13 16:01:25,987] INFO Processed session termination for sessionid: 0x1000643942f0001 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-11-13 16:01:25,988] INFO Session: 0x1000643942f0001 closed (org.apache.zookeeper.ZooKeeper)
+[2019-11-13 16:01:25,989] INFO [ZooKeeperClient Simple ACL authorizer] Closed. (kafka.zookeeper.ZooKeeperClient)
+[2019-11-13 16:01:25,989] INFO [ExpirationReaper-0-topic]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-13 16:01:25,989] INFO EventThread shut down for session: 0x1000643942f0001 (org.apache.zookeeper.ClientCnxn)
+[2019-11-13 16:01:25,990] INFO Closed socket connection for client /127.0.0.1:42224 which had sessionid 0x1000643942f0001 (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-11-13 16:01:25,995] INFO [ExpirationReaper-0-topic]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-13 16:01:25,996] INFO [ExpirationReaper-0-topic]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-13 16:01:25,997] INFO [TransactionCoordinator id=0] Shutting down. (kafka.coordinator.transaction.TransactionCoordinator)
+[2019-11-13 16:01:25,999] INFO [ProducerId Manager 0]: Shutdown complete: last producerId assigned 17000 (kafka.coordinator.transaction.ProducerIdManager)
+[2019-11-13 16:01:26,003] INFO [Transaction State Manager 0]: Shutdown complete (kafka.coordinator.transaction.TransactionStateManager)
+[2019-11-13 16:01:26,003] INFO [Transaction Marker Channel Manager 0]: Shutting down (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2019-11-13 16:01:26,005] INFO [Transaction Marker Channel Manager 0]: Stopped (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2019-11-13 16:01:26,005] INFO [Transaction Marker Channel Manager 0]: Shutdown completed (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2019-11-13 16:01:26,006] INFO [TransactionCoordinator id=0] Shutdown complete. (kafka.coordinator.transaction.TransactionCoordinator)
+[2019-11-13 16:01:26,006] INFO [GroupCoordinator 0]: Shutting down. (kafka.coordinator.group.GroupCoordinator)
+[2019-11-13 16:01:26,007] INFO [ExpirationReaper-0-Heartbeat]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-13 16:01:26,077] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:26,179] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:26,196] INFO [ExpirationReaper-0-Heartbeat]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-13 16:01:26,196] INFO [ExpirationReaper-0-Heartbeat]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-13 16:01:26,196] INFO [ExpirationReaper-0-Rebalance]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-13 16:01:26,244] INFO [ExpirationReaper-0-Rebalance]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-13 16:01:26,244] INFO [ExpirationReaper-0-Rebalance]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-13 16:01:26,245] INFO [GroupCoordinator 0]: Shutdown complete. (kafka.coordinator.group.GroupCoordinator)
+[2019-11-13 16:01:26,246] INFO [ReplicaManager broker=0] Shutting down (kafka.server.ReplicaManager)
+[2019-11-13 16:01:26,246] INFO [LogDirFailureHandler]: Shutting down (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2019-11-13 16:01:26,246] INFO [LogDirFailureHandler]: Stopped (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2019-11-13 16:01:26,246] INFO [LogDirFailureHandler]: Shutdown completed (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2019-11-13 16:01:26,247] INFO [ReplicaFetcherManager on broker 0] shutting down (kafka.server.ReplicaFetcherManager)
+[2019-11-13 16:01:26,249] INFO [ReplicaFetcherManager on broker 0] shutdown completed (kafka.server.ReplicaFetcherManager)
+[2019-11-13 16:01:26,250] INFO [ReplicaAlterLogDirsManager on broker 0] shutting down (kafka.server.ReplicaAlterLogDirsManager)
+[2019-11-13 16:01:26,250] INFO [ReplicaAlterLogDirsManager on broker 0] shutdown completed (kafka.server.ReplicaAlterLogDirsManager)
+[2019-11-13 16:01:26,250] INFO [ExpirationReaper-0-Fetch]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-13 16:01:26,276] INFO [ExpirationReaper-0-Fetch]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-13 16:01:26,276] INFO [ExpirationReaper-0-Fetch]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-13 16:01:26,276] INFO [ExpirationReaper-0-Produce]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-13 16:01:26,280] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:26,381] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:26,476] INFO [ExpirationReaper-0-Produce]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-13 16:01:26,476] INFO [ExpirationReaper-0-Produce]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-13 16:01:26,476] INFO [ExpirationReaper-0-DeleteRecords]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-13 16:01:26,476] INFO [ExpirationReaper-0-DeleteRecords]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-13 16:01:26,477] INFO [ExpirationReaper-0-DeleteRecords]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-13 16:01:26,477] INFO [ExpirationReaper-0-ElectPreferredLeader]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-13 16:01:26,482] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:26,583] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:26,676] INFO [ExpirationReaper-0-ElectPreferredLeader]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-13 16:01:26,676] INFO [ExpirationReaper-0-ElectPreferredLeader]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-13 16:01:26,680] INFO [ReplicaManager broker=0] Shut down completely (kafka.server.ReplicaManager)
+[2019-11-13 16:01:26,681] INFO Shutting down. (kafka.log.LogManager)
+[2019-11-13 16:01:26,684] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (bflbdck114.dom101.mapres/100.121.227.162:9094) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-11-13 16:01:26,767] INFO Shutdown complete. (kafka.log.LogManager)
+[2019-11-13 16:01:26,782] INFO [ZooKeeperClient Kafka server] Closing. (kafka.zookeeper.ZooKeeperClient)
+[2019-11-13 16:01:26,782] INFO Processed session termination for sessionid: 0x1000643942f0000 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-11-13 16:01:26,783] INFO Session: 0x1000643942f0000 closed (org.apache.zookeeper.ZooKeeper)
+[2019-11-13 16:01:26,783] INFO [ZooKeeperClient Kafka server] Closed. (kafka.zookeeper.ZooKeeperClient)
+[2019-11-13 16:01:26,784] INFO [ThrottledChannelReaper-Fetch]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-11-13 16:01:26,784] INFO Closed socket connection for client /127.0.0.1:42220 which had sessionid 0x1000643942f0000 (org.apache.zookeeper.server.NIOServerCnxn)
+[2019-11-13 16:01:26,785] INFO EventThread shut down for session: 0x1000643942f0000 (org.apache.zookeeper.ClientCnxn)
+[2019-11-13 16:01:27,587] INFO [ThrottledChannelReaper-Fetch]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-11-13 16:01:27,587] INFO [ThrottledChannelReaper-Fetch]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-11-13 16:01:27,587] INFO [ThrottledChannelReaper-Produce]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-11-13 16:01:28,587] INFO [ThrottledChannelReaper-Produce]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-11-13 16:01:28,587] INFO [ThrottledChannelReaper-Produce]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-11-13 16:01:28,587] INFO [ThrottledChannelReaper-Request]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-11-13 16:01:29,587] INFO [ThrottledChannelReaper-Request]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-11-13 16:01:29,587] INFO [ThrottledChannelReaper-Request]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-11-13 16:01:29,589] INFO [SocketServer brokerId=0] Shutting down socket server (kafka.network.SocketServer)
+[2019-11-13 16:01:29,609] INFO [SocketServer brokerId=0] Shutdown completed (kafka.network.SocketServer)
+[2019-11-13 16:01:29,613] INFO [KafkaServer id=0] shut down completed (kafka.server.KafkaServer)

@@ -1,0 +1,108 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>fr.bpcesa.openshift.kafka</groupId>
+  <artifactId>kafka-ssl-sasl</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <properties>
+        <java.version>1.8</java.version>
+        <h2.version>1.4.199</h2.version>
+        <docker.remote.registry>picnex000.dom101.mapres:8084/bpcesa/siq</docker.remote.registry>
+        <docker.image.from>socle-bpceit-jdk:1.8.0-1</docker.image.from>
+        <docker.image.name>${docker.remote.registry}/${project.artifactId}:${project.version}</docker.image.name>
+    </properties>
+
+    <build>
+        <plugins>
+            <!--plugin>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>3.1.0</version>
+                <executions>
+                    <execution>
+                        <id>copy-openshift</id>
+                        <phase>validate</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${project.build.directory}/openshift</outputDirectory>
+                            <resources>
+                                <resource>
+                                    <directory>src/main/openshift</directory>
+                                    <filtering>true</filtering>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>copy-docker</id>
+                        <phase>validate</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${project.build.directory}/docker</outputDirectory>
+                            <resources>
+                                <resource>
+                                    <directory>src/main/docker/shell</directory>
+                                    <filtering>true</filtering>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin -->
+            <plugin>
+                <groupId>io.fabric8</groupId>
+                <artifactId>docker-maven-plugin</artifactId>
+                <configuration>
+                    <images>
+                        <image>
+                            <name>${docker.image.name}</name>
+                            <build>
+                                <from>${docker.image.from}</from>
+                                <entryPoint>
+                                    <exec>
+                                        <arg>/app/kafka.sh</arg>
+                                    </exec>
+                                </entryPoint>
+                                <assembly>
+                                    <mode>dir</mode>
+                                    <targetDir>/app</targetDir>
+                                    <descriptor>assembly.xml</descriptor>
+                                </assembly>
+                                <runCmds>
+                                	<runCmd>tar xzvf /app/kafka.tar.gz -C /app</runCmd>
+                                	<runCmd>mv /app/kafka_2.12-2.3.1-SASL-SCRAM-SSL /app/kafka</runCmd>
+                                	<runCmd>rm /app/kafka.tar.gz</runCmd>
+                                	<runCmd>chmod -R 777 /app/kafka</runCmd>
+                                	<runCmd>chmod 777 /app/kafka.sh</runCmd>
+                                </runCmds>
+                            </build>
+                            <run>
+                                <ports>
+                                    <port>8080</port>
+                                </ports>
+                            </run>
+                        </image>
+                    </images>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>generate image</id>
+                        <phase>install</phase>
+                        <goals>
+                            <goal>build</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>push image</id>
+                        <phase>install</phase>
+                        <goals>
+                            <goal>push</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
